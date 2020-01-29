@@ -1,8 +1,8 @@
 # Terraform Laravel Pipeline
-
 [![CircleCI](https://github.com/prajavat/terraform-laravel-pipeline/blob/master/docs/passed.svg)]()
 
-A Terraform module to create an AWS CodePipeline 
+[![CircleCI](https://github.com/prajavat/terraform-laravel-pipeline/blob/master/docs/get_prices.svg)]()
+
 
 ## Install AWSClI
 
