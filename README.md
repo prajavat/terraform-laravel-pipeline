@@ -1,7 +1,7 @@
 # Terraform Laravel Pipeline
 [![CircleCI](https://github.com/prajavat/terraform-laravel-pipeline/blob/master/docs/passed.svg)]()
 
-[![CircleCI](https://github.com/prajavat/terraform-laravel-pipeline/blob/master/docs/get_prices.svg)]()
+[![CircleCI](https://github.com/prajavat/terraform-laravel-pipeline/blob/master/docs/get_prices.svg)](mailto:prashant.rajawat1996@gmail.com)
 
 
 ## Install AWSClI
