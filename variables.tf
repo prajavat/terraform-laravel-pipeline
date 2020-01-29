@@ -1,3 +1,7 @@
+## 
+## Application/Project Variables/Properties
+##
+
 variable "region" {
   type        = string
   default     = "us-east-1"
@@ -15,6 +19,10 @@ variable "app_name" {
   description = "Please change as per your php/Leavel application name"
 }
 
+## 
+## EC2 Instance & AutoScaling Group Variables/Properties
+##
+
 variable "instance_type" {
   type        = string
   default     = "t2.micro"
@@ -23,7 +31,7 @@ variable "instance_type" {
 
 variable "key_name" {
   type        = string
-  default     = "app-dev"
+  default     = ""
   description = "Please change/create EC2 instance PEM key name"
 }
 
@@ -39,6 +47,10 @@ variable "max_size" {
   default = "2"
 }
 
+## 
+## Github Variables/Properties
+##
+
 variable "github_auth_token" {
   default = ""
   description = "Please create github auth token"
@@ -46,13 +58,13 @@ variable "github_auth_token" {
 
 variable "github_user" {
   type        = string
-  default     = "prajavat"
+  default     = ""
   description = "Please change Github username"
 }
 
 variable "github_repo" {
   type        = string
-  default     = "laravel-webapp"
+  default     = ""
   description = "Please change Github repository name"
 }
 
