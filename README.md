@@ -39,5 +39,3 @@ terraform apply terraform.plan
 ## Outputs
 
 - `ec2_instance_name` - The EC2 Instance Name
-- `codedeploy_app_name` - The service name
-- `codedeploy_deployment_group_id` - Service load balancer hosted zone ID
