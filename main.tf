@@ -28,3 +28,40 @@ module "terraform-aws-code-pipeline" {
   github_repo           = var.github_repo
   github_branch         = var.github_branch
 }
+
+
+module "terraform-aws-code-pipeline" {
+  source                = "./modules/terraform-aws-code-pipeline"
+  stage                 = var.stage
+  app_name              = var.app_name
+  codedeploy_name       = module.terraform-aws-code-deploy.codedeploy_app
+  codedeploy_group_name = module.terraform-aws-code-deploy.codedeploy_deployment_group
+  github_auth_token     = var.github_auth_token
+  github_user           = var.github_user
+  github_repo           = var.github_repo
+  github_branch         = var.github_branch
+}
+
+module "terraform-aws-code-pipeline" {
+  source                = "./modules/terraform-aws-code-pipeline"
+  stage                 = var.stage
+  app_name              = var.app_name
+  codedeploy_name       = module.terraform-aws-code-deploy.codedeploy_app
+  codedeploy_group_name = module.terraform-aws-code-deploy.codedeploy_deployment_group
+  github_auth_token     = var.github_auth_token
+  github_user           = var.github_user
+  github_repo           = var.github_repo
+  github_branch         = var.github_branch
+}
+
+module "terraform-aws-code-pipeline" {
+  source                = "./modules/terraform-aws-code-pipeline"
+  stage                 = var.stage
+  app_name              = var.app_name
+  codedeploy_name       = module.terraform-aws-code-deploy.codedeploy_app
+  codedeploy_group_name = module.terraform-aws-code-deploy.codedeploy_deployment_group
+  github_auth_token     = var.github_auth_token
+  github_user           = var.github_user
+  github_repo           = var.github_repo
+  github_branch         = var.github_branch
+}
